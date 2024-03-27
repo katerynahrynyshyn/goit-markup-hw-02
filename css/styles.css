@@ -116,10 +116,10 @@ address{
     background-color: #4D5AE5;
    
     }
-.hero-btn .hover{
+.hero-btn :hover{
     background-color: #404BBF;
 }
-.hero-btn .focus{
+.hero-btn :focus{
     background-color: #404BBF;
 }
 /*------------------------------------ */
@@ -179,7 +179,9 @@ address{
 
 .team-list {}
 
-.team-member {}
+.team-member {
+    background-color: #FFFFFF;
+}
 
 .team-member-name {
     font-weight: 500;
@@ -188,7 +190,7 @@ address{
     letter-spacing: 0.02em;
     text-align: center;
     color: #2e2f42;
-    background-color: #FFFFFF;
+   
 }
 
 .team-member-profession {
