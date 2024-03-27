@@ -13,6 +13,9 @@ a{
     text-decoration: none;
 }
 
+address{
+    font-style: normal;
+}
 
 /*--------------HEADER--------------- */
 
@@ -78,9 +81,8 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
-    font-style: normal;
-
 }
+
 .header-contacts-link:hover{
     color: #404bbf;
 }
@@ -110,13 +112,14 @@ a{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #ffffff:
+    color: #ffffff;
+    background-color: #4D5AE5;
    
     }
-.hero-btn :hover{
+.hero-btn .hover{
     background-color: #404BBF;
 }
-.hero-btn :focus{
+.hero-btn .focus{
     background-color: #404BBF;
 }
 /*------------------------------------ */
@@ -170,7 +173,9 @@ a{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;}
+    color: #2e2f42;
+    text-transform: capitalize;
+}
 
 .team-list {}
 
@@ -182,7 +187,9 @@ a{
     line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;}
+    color: #2e2f42;
+    background-color: #FFFFFF;
+}
 
 .team-member-profession {
     font-size: 16px;
