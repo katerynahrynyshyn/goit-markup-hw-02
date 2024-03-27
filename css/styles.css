@@ -1,7 +1,8 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #fff;
+    background-color: #ffffff;
+    color: #434455;
 }
 
 ul{
@@ -26,11 +27,11 @@ a{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #2e2f42;
+    color: #4d5ae5;
 }
 
 .header-logo .accent {
-    color: #4d5ae5;
+    color: #2e2f42;
 }
 
 .header-menu-list {}
@@ -49,14 +50,15 @@ a{
     justify-content: flex-start;
     flex-direction: row;
     gap: 40px;
+    color: #2e2f42;
 }
 
 .header-menu-link:hover{
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
 .header-menu-link:focus {
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
 
@@ -76,13 +78,14 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
+    font-style: normal;
 
 }
 .header-contacts-link:hover{
-    color: #4d5ae5;
+    color: #404bbf;
 }
 .header-contacts-link:focus {
-    color: #4d5ae5;
+    color: #404bbf;
 }
 
 /*------------------------------------ */
@@ -98,29 +101,38 @@ a{
     line-height: 1.07;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #fff;}
+    color: #ffffff;}
 
 .hero-btn {
+    background-color: #4D5AE5;
     cursor:pointer;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.04em;
-    color: #fff:
+    color: #ffffff:
+   
     }
 .hero-btn :hover{
-    color: #4d5ae5;
+    background-color: #404BBF;
 }
 .hero-btn :focus{
-    color: #4d5ae5;
+    background-color: #404BBF;
 }
 /*------------------------------------ */
 /*-----------------ADVANTAGES------------------- */
 
 .advantages {}
 
+.advantages-title{
+    text-transform: capitalize;
+}
+
+ 
+
 
 .advantages-list {
+    background-color: #FFFFFF;
 }
 
 
@@ -190,7 +202,9 @@ a{
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #2e2f42;}
+    color: #2e2f42;
+    text-transform: capitalize;
+}
 
 .portfolio-list {}
 
@@ -223,10 +237,10 @@ a{
     line-height: 1.17;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: #f4f4fd;}
+    color: #4d5ae5;}
 
 .footer-link .accent {
-    color: #4d5ae5;
+    color: #f4f4fd;
 }
 
 .footer-text {
