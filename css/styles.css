@@ -78,7 +78,7 @@ address{
     color: #434455;
 }
 
-.header-contacts-link:hover{
+.header-contacts-link:hover {
     color: #404bbf;
 }
 .header-contacts-link:focus {
@@ -111,12 +111,13 @@ address{
     background-color: #4D5AE5;
    
     }
-.hero-btn :hover{
+.hero-btn:hover,
+.hero-btn:focus {
     background-color: #404BBF;
 }
-.hero-btn :focus{
-    background-color: #404BBF;
-}
+
+
+
 /*------------------------------------ */
 /*-----------------ADVANTAGES------------------- */
 
